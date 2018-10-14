@@ -7,8 +7,8 @@ function produceDrivingRange(range) {
   }
 }
 
-function produceTipCalculator() {
-  return function() {
-    
+function produceTipCalculator(thing) {
+  return function(otherthing) {
+    return thing * otherthing;
   }
 }
