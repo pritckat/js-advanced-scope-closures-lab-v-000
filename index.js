@@ -1,5 +1,5 @@
-function produceDrivingRange(thing) {
-  return function(otherThing) {
-    (thing > otherThing ? true : false);
+function produceDrivingRange(range) {
+  return function(start, stop) {
+    (range > (start - stop) ? true : false);
   }
 }
