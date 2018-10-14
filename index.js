@@ -6,3 +6,9 @@ function produceDrivingRange(range) {
     return (range > difference ? `within range by ${Math.abs(range - difference)}` : `${Math.abs(range - difference)} blocks out of range`);
   }
 }
+
+function produceTipCalculator() {
+  return function() {
+    
+  }
+}
