@@ -1,6 +1,7 @@
 function produceDrivingRange(range) {
   return function(start, stop) {
     startdig = start.slice(0, start.length - 2)
-    return (range > (start - stop) ? true : startdig);
+    endig = stop.slice(0, stop.length - 2)
+    return (range > (startdig - endig) ? true : startdig);
   }
 }
